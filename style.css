@@ -104,10 +104,7 @@
     margin-left: 10px;
   }
   .center-aside{
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid #061D2E;
-    border-radius: 10px;
+    display: none;
   }
   hr{
     margin-left: 20px;
@@ -126,20 +123,21 @@
     border: 1px solid black;
     display: flex;
     justify-content: center;
-    padding-left: -50px;
+    padding-left: -70px;
     padding-right: -50px;
   }
   .audio p{
     margin-left: 20px;
     margin-right: 20px;
   }
-  .options a{
-    border: 1px solid black;
+  .options{
+    display: none;
+  }
+  .bio-mobile span{
+    display: inline-block;
+    background-color: rgb(255, 205, 113);
     border-radius: 10px;
     padding: 5px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: black;
   }
 }
 @media (min-width: 751px) {
@@ -164,6 +162,9 @@
   .audio{
     display: none;
   }
+  .bio-mobile{
+    display: none;
+  }
   body{
     margin: 0px;
   }
@@ -174,13 +175,12 @@
     justify-content: space-between;
   }
   header img{
-    width: 25%;
+    width: 20%;
     margin-left: 30px;
   }
   .navbar-header li{
     display: inline;
     margin-right: 20px;
-    
   }
   header a {
     text-decoration: none;
@@ -191,6 +191,18 @@
     display: flex;
     align-items: center;
   }
+  .search ul{
+    display: flex;
+    align-items: center;
+  }
+  .search a{
+    display: flex;
+    align-items: center;
+  }
+  .search a img{
+    width: 20px;
+    margin-left: -10px;
+  }
   .user a{
     margin-right: 20px;
   }
@@ -199,10 +211,25 @@
     padding: 10px;
     border-radius: 15px;
   }
+  .log{
+    color: white;
+    background-color: #061D2E;
+    border: 0px;
+    margin-right: 15px;
+  }
+  .head h3{
+    color: grey;
+  }
+  .center-aside a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+  }
   main{
     margin-left: 30px;
     margin-right: auto 0px;
     border: 1px solid #061D2E;
+    
   }
   main li{
     display: inline;
@@ -217,12 +244,18 @@
     padding: 5px;
     margin-right: 10px;
     border-radius: 10px;
+    font-weight: bold;
+    color: #061D2E;
+  }
+  .options img{
+    width: 15px;
   }
   section{
     border: 1px solid #061D2E;
     margin-left: 40px;
     padding: 15px;
     width: 50%;
+    font-family: 'Times New Roman', Times, serif;
   }
   .content{
     display: flex;
@@ -242,10 +275,8 @@
     align-items: center;
   }
   .img img{
-    width: 60%;
-  }
-  .center-aside{
-    border: solid 1px solid #061D2E;
+    width: 100%;
+    
   }
   hr{
     margin-left: 20px;

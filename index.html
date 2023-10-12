@@ -25,16 +25,19 @@
       <div class="search">
         <img src="images/logo.webp" alt="logo">
         <ul class="navbar-header">
-          <li><a href="#">Browser</a></li>
-          <li><a href="#">Search</a></li>
+          <li><a href="#"><img src="images/menu.png" alt="menu">Browser</a></li>
+          <li><a href="#"><img src="images/loupe.png" alt="loupe">Search</a></li>
           <li><a href="#">Dictionary</a></li>
           <li><a href="#">Quizzes</a></li>
           <li><a href="#">Money</a></li>
         </ul>
       </div>
       <div class="user">
-        <a href="#" class="login">login</a>
-        <a href="#" class="sub">Subscription</a>
+        <a href="#" class="sub">Subscribe</a>
+        <select name="login" class="log">
+          <option value="login">Login</option>
+          <option value="Create Account">Create</option>
+        </select>
       </div>
     </header>
     <main>
@@ -47,7 +50,7 @@
         <div class="head">
           <div>
             <h5><strong>Science & Tech</strong></h5>
-            <h1>Tim Berners-Lee</h1>
+            <h1><strong>Tim Berners-Lee</strong></h1>
             <h3>British scientist</h3>
           </div>
           <div>
@@ -55,13 +58,14 @@
           </div>
         </div>
         <aside class="options">
-          <a href="#">Print</a>
-          <a href="#">Cite</a>
-          <a href="#">Share</a>
-          <a href="#">Feedback</a>
+          <a href="#"><img src="images/print.png" alt="print">Print</a>
+          <a href="#"><img src="images/cite.png" alt="cite">Cite</a>
+          <a href="#"><img src="images/share.png" alt="share">Share</a>
+          <a href="#"><img src="images/comment.png" alt="comment">Feedback</a>
+          <a href="#"><strong>⁝</strong></a>
         </aside>
-        <p>Alternate titles: Sir Tim Berners-Lee</p>
-        <p>By <a href="#">Michael Aaron Dennis</a> • Last Update: Dec 2, 2022 <a href="#"> • Edit History</a></p>
+        <p><i>Alternate titles: Sir Tim Berners-Lee</i></p>
+        <p>By <a href="#">Michael Aaron Dennis</a> • Last Update: Dec 2, 2022 • <a href="#">Edit History</a></p>
         <div class="table">
           <h3><a href="#">Table of Contents</a></h3>
         </div>
@@ -77,11 +81,13 @@
             <div class="img">
               <img src="images/tim-berners.webp" alt="tim-berners">
               <p>Tim Berners-Lee</p>
-              <a href="#">See all media</a>
+              <a href="#"><strong>See all media</strong></a>
             </div>
 
             <hr>
             <div class="bio">
+              <p class="bio-mobile"><strong>Category: <span>Science & Tech</span></strong></p>
+              <p class="bio-mobile"><strong>In Full: </strong>Sir Tim Berners-Lee</p>
               <p><strong>Born:</strong> June 8, 1955 (age 67) • <br>
                 <a href="#">London</a> • <a href="#">England</a>
               </p>
@@ -96,9 +102,7 @@
               <a href="#">See all related content →</a>
             </div>
           </aside>
-
         </div>
-
       </section>
     </main>
   </body>
