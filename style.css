@@ -49,16 +49,18 @@
   .img img{
     width: 100%;
   }
-  li a{
-    text-decoration: none;
-    color: grey;
-  }
   main ul{
-    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+    margin-bottom: -10px;
+  }
+  .branch a{
+    color: grey;
+    text-decoration: none;
   }
   main li{
     display: inline;
-    margin-right: 10px;
   }
   main{
     margin-left: 5px;
@@ -104,13 +106,10 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .bio{
     margin-left: 10px;
-  }
-  .center-aside{
-    display: none;
   }
   hr{
     margin-left: 20px;
@@ -142,6 +141,22 @@
     background-color: rgb(255, 205, 113);
     border-radius: 10px;
     padding: 5px;
+  }
+  .center-aside a{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
+  }
+  article p{
+    line-height: 1.6;
   }
 }
 @media (min-width: 751px) {
@@ -228,6 +243,10 @@
     border: 1px solid black;
     padding: 5px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left:20px;
+    margin-right:20px;
   }
   main{
     margin-left: 30px;
@@ -236,11 +255,19 @@
   }
   main li{
     display: inline;
-    margin-right: 20px;
   }
-  .branch li a{
+  .branch a{
     text-decoration: none;
     color: grey;
+  }
+  article p{
+    line-height: 1.6;
+  }
+  main ul{
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    align-items: center;
   }
   .options a{
     border: 1px solid #061D2E;
@@ -275,10 +302,14 @@
   .img{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .img img{
     width: 100%;
+  }
+  .media{
+    display: flex;
+    justify-content: center;
   }
   hr{
     margin-left: 20px;
@@ -287,5 +318,4 @@
   section aside a{
     text-decoration: none;
   }
-
 }
