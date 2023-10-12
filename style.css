@@ -86,10 +86,16 @@
   .head a {
     border: 1px solid #061D2E;
   }
+  aside a{
+    text-decoration: none;
+  }
   .content{
     border: 1px solid #061D2E;
     display: flex;
     flex-direction: column-reverse;
+  }
+  .content article{
+    margin: 10px;
   }
   aside .img{
     border: 1px solid #061D2E;
@@ -123,8 +129,6 @@
     border: 1px solid black;
     display: flex;
     justify-content: center;
-    padding-left: -70px;
-    padding-right: -50px;
   }
   .audio p{
     margin-left: 20px;
@@ -229,7 +233,6 @@
     margin-left: 30px;
     margin-right: auto 0px;
     border: 1px solid #061D2E;
-    
   }
   main li{
     display: inline;
@@ -276,7 +279,6 @@
   }
   .img img{
     width: 100%;
-    
   }
   hr{
     margin-left: 20px;
