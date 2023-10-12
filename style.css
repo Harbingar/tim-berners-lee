@@ -122,6 +122,25 @@
     padding: 5px 50px 5px 50px;
     border-radius: 10px;
   }
+  .audio{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding-left: -50px;
+    padding-right: -50px;
+  }
+  .audio p{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .options a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+  }
 }
 @media (min-width: 751px) {
   .mobile{
@@ -140,6 +159,9 @@
     display: none;
   }
   .head h5{
+    display: none;
+  }
+  .audio{
     display: none;
   }
   body{
